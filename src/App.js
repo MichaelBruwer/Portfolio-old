@@ -22,14 +22,16 @@ const App = () => {
       <div className='App  '>
         <Navbar />
         <div className='container'>
-          <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/About' component={About} />
-            <Route exact path='/ContactMe' component={ContactMe} />
-            <Route exact path='/Testimonials' component={Testimonials} />
-            <Route exact path='/skills' component={skills} />
-            <Route component={NotFound} />
-          </Switch>
+          <Router>
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route exact path='/About' component={About} />
+              <Route exact path='/ContactMe' component={ContactMe} />
+              <Route exact path='/Testimonials' component={Testimonials} />
+              <Route exact path='/skills' component={skills} />
+              <Route component={NotFound} />
+            </Switch>
+          </Router>
         </div>
         <Footer />
       </div>
