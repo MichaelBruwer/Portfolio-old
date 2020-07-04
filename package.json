@@ -1,4 +1,5 @@
 {
+  "homepage": "https://michaelbruwer.github.io/Portfolio",
   "name": "port",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +17,8 @@
     "use-sound": "^1.0.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "json-server": "json-server --watch db.json --port 5000",
     "dev": "concurrently \"npm start\" \"npm run json-server\"",
