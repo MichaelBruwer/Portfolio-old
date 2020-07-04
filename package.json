@@ -1,6 +1,6 @@
 {
   "homepage": "https://michaelbruwer.github.io/Portfolio",
-  "name": "port",
+  "name": "Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
