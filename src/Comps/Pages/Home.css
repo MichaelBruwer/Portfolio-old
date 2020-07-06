@@ -4,3 +4,7 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
 }
+
+.my-modal .modal-content {
+  background-image: url('/Images/sealre.jpg');
+}

@@ -16,11 +16,8 @@ const ContactMe = () => {
               </a>
 
               {/* Modal Start */}
-              <div id='modal1' className='modal modal-fixed-footer'>
-                <div
-                  className='modal-content '
-                  styles={{ overlay: { background: '#80deea' } }}
-                >
+              <div id='modal1' className='modal modal-fixed-footer my-modal'>
+                <div className='modal-content '>
                   {/* formstart */}
                   <form action='https://formspree.io/mknqqgzz' method='POST'>
                     <div className='row'>
@@ -55,10 +52,10 @@ const ContactMe = () => {
                   </form>
                   {/* form end */}
                 </div>
-                <div class='modal-footer'>
+                <div className='modal-footer'>
                   <a
                     href='#!'
-                    class='modal-close waves-effect waves-green btn-flat'
+                    className='modal-close waves-effect waves-green btn-flat'
                   >
                     Close
                   </a>
