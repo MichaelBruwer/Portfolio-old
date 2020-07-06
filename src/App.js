@@ -1,5 +1,13 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import {
+  ABOUT_PAGE,
+  CONTACT_PAGE,
+  SKILLS_PAGE,
+  TESTIMONIALS_PAGE,
+} from './Comps/Layout/Links';
+
 import Navbar from './Comps/Layout/Navbar';
 import Footer from './Comps/Layout/Footer';
 import Home from './Comps/Pages/Home.js';
@@ -25,10 +33,10 @@ const App = () => {
           <Router>
             <Switch>
               <Route exact path='/' component={Home} />
-              <Route exact path='/About' component={About} />
-              <Route exact path='/ContactMe' component={ContactMe} />
-              <Route exact path='/Testimonials' component={Testimonials} />
-              <Route exact path='/skills' component={skills} />
+              <Route exact path={ABOUT_PAGE} component={About} />
+              <Route exact path={CONTACT_PAGE} component={ContactMe} />
+              <Route exact path={SKILLS_PAGE} component={Testimonials} />
+              <Route exact path={TESTIMONIALS_PAGE} component={skills} />
               <Route component={NotFound} />
             </Switch>
           </Router>
