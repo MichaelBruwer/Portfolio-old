@@ -1,0 +1,1 @@
+{"version":3,"sources":["Home.css"],"names":[],"mappings":"AAAA,KACE,qCAAwC,CACxC,qBAAsB,CACtB,uBAA+B,CAC/B,2BACF","file":"main.c70a6e32.chunk.css","sourcesContent":["body {\r\n  background-image: url('/Images/BG1.jpg');\r\n  background-size: cover;\r\n  background-position: center top;\r\n  background-repeat: no-repeat;\r\n}\r\n"]}
