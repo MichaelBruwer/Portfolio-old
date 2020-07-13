@@ -29,18 +29,18 @@ const App = () => {
     <Router>
       <div className='App  '>
         <Navbar />
-        <div className='container'>
-          <Router>
-            <Switch>
-              <Route exact path='/' component={Home} />
-              <Route exact path={ABOUT_PAGE} component={About} />
-              <Route exact path={CONTACT_PAGE} component={ContactMe} />
-              <Route exact path={TESTIMONIALS_PAGE} component={Testimonials} />
-              <Route exact path={SKILLS_PAGE} component={skills} />
-              <Route component={NotFound} />
-            </Switch>
-          </Router>
-        </div>
+
+        <Router>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path={ABOUT_PAGE} component={About} />
+            <Route exact path={CONTACT_PAGE} component={ContactMe} />
+            <Route exact path={TESTIMONIALS_PAGE} component={Testimonials} />
+            <Route exact path={SKILLS_PAGE} component={skills} />
+            <Route component={NotFound} />
+          </Switch>
+        </Router>
+
         <Footer />
       </div>
     </Router>

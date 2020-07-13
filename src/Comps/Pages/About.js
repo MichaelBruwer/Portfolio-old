@@ -15,10 +15,18 @@ const About = () => {
                 <i>About Me</i>
               </h3>
               <p className='flow-text'>
-                Hey, this is my About Page, so I have to say something About
-                myself. Sometimes it is hard to introduce yourself because you
-                know yourself so well that you do not know what to strat with or
-                where.
+                I am an aspiring Junior Front-end Developer with a passion for
+                gaming. I am a trustworthy, respectful, organized, adaptable and
+                truthful person who is looking to pursue a long-term career in
+                front end development and meet some new and interesting people
+                along the way.
+                <br />
+                I have been around computers most of my life mainly dealing with
+                hardware but also occasionally loading software for people. This
+                close contact has fuelled the passion for coding.
+                <br />
+                <br />
+                Passion Board: Gaming, Anime, cooking, Netflix
               </p>
             </div>
           </div>
