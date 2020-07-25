@@ -5,6 +5,27 @@ body {
   background-repeat: no-repeat;
 }
 
-.my-modal .modal-content {
-  background-image: url('/Images/sealre.jpg');
+/* .my-modal .modal-content {
+} */
+
+.size {
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.Picture {
+  width: 150px;
+}
+
+.PictureH {
+  width: 250px;
+}
+
+.Lcolor {
+  color: red;
+  text-underline-position: below;
+}
+
+.tcolor {
+  color: white;
 }

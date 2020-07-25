@@ -4,7 +4,7 @@ const ContactMe = () => {
   return (
     <div>
       <div className='row'>
-        <div className='col s1 m5'>
+        <div className='col s1 m3'>
           <div className='card light-blue darken-3'>
             <div className='card-content light-blue darken-3'>
               {/* Modal Trigger */}
@@ -75,10 +75,5 @@ const ContactMe = () => {
     </div>
   );
 };
-// const bg = {
-//   overlay: {
-//     background: <img src='/Images/seal.jpg' alt='seal' />,
-//   },
-// };
 
 export default ContactMe;

@@ -96,7 +96,11 @@ const Testimonials = () => {
         <div className='col s1 m5'>
           <div className='card light-blue darken-3'>
             <div className='card-image'>
-              <img src='images/Gw.jpg' alt='Fallen angel' className='Image' />
+              <img
+                src='images/godwin.jpg'
+                alt='Fallen angel'
+                className='Image'
+              />
               <span className='card-title yellow-text text-lighten-1'>
                 <p>
                   <b>

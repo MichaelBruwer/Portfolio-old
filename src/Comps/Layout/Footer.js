@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer
-      className='page-footer light-blue darken-3'
+      className='page-footer blue-grey lighten-3'
       style={{
         position: 'flex',
         bottom: '0',
